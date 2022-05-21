@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+
+</head>
+  <link rel="icon" type="image/jpg" href="https://i.pinimg.com/originals/ec/58/6a/ec586ac26f29bf6d186f0a738acdb056.jpg"/>
+  <title>Experiment-004</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+nav {
+  background: #fff;
+  padding: 30px 120px;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 80px;
+}
+nav a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1rem;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;
+  color: #45c034;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 5px;
+  background-image: linear-gradient(to right, #69d607, #cee016);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 25px;
+  transition: 0.4s;
+}
+nav a:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+
+</style>
+</head>
+
+<body>
+  <nav>
+    <a href="https://www.youtube.com/">Home</a>
+    <a href="">Store</a>
+    <a href="">Topup</a>
+    <a href="">Code</a>
+    <a href="">About</a>
+    <a href="">Contact</a>
+  </nav>
+</body>
+
+</html>
